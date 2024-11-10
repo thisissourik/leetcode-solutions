@@ -1,4 +1,4 @@
-public class MergeSortedArray {
+public class Merge_sorted_array {
     public static void main(String[] args) {
         int nums1[] = { 7, 6, 8, 0, 0, 0 };
         int m = 3;
