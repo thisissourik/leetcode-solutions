@@ -1,4 +1,4 @@
-public class Frog_Jump {
+public class Frog_Jump_1_2_jumps {
     public static void main(String[] args) {
         int arr[] = { 10, 20, 30, 10 };
         int dp[] = new int[arr.length];
@@ -7,6 +7,9 @@ public class Frog_Jump {
 
         int energyCost = frogJump(arr.length - 1, arr, dp);
         System.out.println(energyCost);
+
+        for (int i : dp)
+            System.out.println(i);
     }
 
     public static int frogJump(int n, int height[], int dp[]) {
