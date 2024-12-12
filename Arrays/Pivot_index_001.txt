@@ -1,0 +1,111 @@
+git config --system user.name "username"
+git config --system user.email "user-email@gmail.com"
+
+------PGM1----------
+mkdir pgm1
+cd pgm1
+notepad F1.txt
+git init
+git add .
+git commit -m "first commit"
+------PGM2-----------
+mkdir pgm2
+cd pgm2
+git init
+git add .
+git commit -m "message"
+git checkout -b 
+notepad f1.txt
+git add .
+git commit -m "my featureBranch commit"
+git checkout master
+-------PGM3------------
+notepad f1.txt
+git init
+git add .
+git commit -m "Initial commit"
+git checkout -b featurebranch1
+git stash
+git checkout master
+git checkout -b featurebranch2
+git add .
+git commit -m "applied stashed changes"
+git stash apply
+git checkout master
+git merge featurebranch2
+git stash list
+git stash drop stash@{0}
+-------PGM4-------------
+git clone <link>
+-------PGM5-------------
+mkdir pgm5
+cd pgm5
+git clone <link>
+cd <folder-name>
+[make changes in file in remote repo]
+git fetch origin
+git rebase origin/main
+git checkout -b fb1
+[modify the file locally and save it]
+git add .
+git commit -m <message>
+git fetch origin
+git rebase origin/main
+[if automerging works program is complete if not follow next]
+[open the file and remove head markers and save it]
+git add .
+git rebase --continue
+-------PGM6------------
+git checkout main
+git merge fb1
+git push origin main
+-------PGM7------------
+mkdir pgm7
+git init
+git add .
+git commit -m "initial commit"
+[do 2 more changes and commits]
+git tag v1.0
+git log
+[do 2 more commit]
+git tag v2.0
+git tag -d v1.0
+--------PGM8------------
+mkdir pgm8
+cd pgm8
+git init
+[create empty fle and commit it]
+git add .
+git commit -m "commit-master"
+git checkout -b fb1
+git add .
+[modify it 5 times add and commit]
+git log
+gi checkout master
+git checkout -b fb2
+git cherry-pick <commit-id>^..<commit-id>
+[if conflict remove head markers save]
+git add .
+git cherry-pick --continue
+-----------PGM9-----------
+notepad f1.txt
+git init
+git add .
+git commit -m "commit1"
+[do 3 commits]
+git log
+git show <commit-id>
+---------PGM10------------
+git log --author="author-name" --since="Nov 01 2024" --since="Dec 06 2024"
+----------PGM11------------
+git log -n 5
+----------PGM12-----------
+git revert <commit-id>
+[if conflict]
+[remove markers and save]
+git add .
+git revert --continue
+-------------------
+git config --system --unset-all user.name
+
+
