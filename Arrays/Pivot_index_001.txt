@@ -25,6 +25,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git checkout -b featurebranch1
+[modify the file]
 git stash
 git checkout master
 git checkout -b featurebranch2
