@@ -1,0 +1,84 @@
+Complete Data Structures And Algorithms
+Phase 1
+	Basic Programming 
+	Time and Space Complexity (Gatesmashers)
+	Recursion(TUF)
+
+Phase 2 : Core DS
+Arrays & Strings
+	Traversal
+	Sliding Window
+	Two Pointers
+	Prefix Sum
+	Kadane's Algorithm
+	Problems (Two Sum, Maximum Subarray, Longest Substring Without Repeating Characters)
+
+Linked Lists
+	Singly/Doubly LL
+	Fast & Slow Pointers
+	Reversal
+	Problems(Reverse a LL, Detect Cycle, Merge Two sorted Lists)
+
+Stacks and Queues
+	LIFO vs FIFO
+	Monotonic Stacks
+	Implement Stack using queues and vice versa
+	Problem(Valid Parenthesis, Min Stack , LRU Cache)
+
+Hash Tables
+	Collision Handling, Load Factor
+	Counting Frequencies
+	Anagram Checks
+	Problems(Group ANagrams, Subarray sum equals K)
+
+Tree & BT
+	BST
+	Traversal
+	BFS
+	DFS
+	Problem(Invert Binary Tree, Validate BST)
+
+Heaps(PQ)
+	Min Heap and Max Heap
+	Kth Largest Element, Merge K sorted lists
+	Problem (Top k frequent elements, find median from data stream)
+
+Graphs
+	BFS,DFS
+	Dijkstra's Algo
+	Union-Find(Disjoint Set), Topological Sort
+	Problem(Number of islands, course schedule)
+
+
+Phase 3: Core algorithms
+
+Sorting & Searching
+	QuickSort
+	MergeSort
+	BinarySearch
+	Problems(Find Peak element, Search in Rotated Sorted array)
+
+DP
+	Memoization vs Tabulation
+	Knapsack, LCS, Fibonacci
+	Problem(Climbing Stairs, Longest increasing subsequence)
+
+Greey Algorithms
+	Activity Selection, Fractional Knapsack
+	Problem(Jump Game, Gas Station)
+
+Divide and Conquer
+	MergeSort
+	QuickSelect
+	Probem(Kth Largest Element, Majority Element)
+
+Backtracking
+	Permutations
+	Subsets
+	N-Queens
+	Problems(Subsets, sudoku Solver)
+
+Bit Manipulation
+	XOR, Bitmasking
+	Problems(Single Number, Power Of Two)
+

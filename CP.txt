@@ -1,0 +1,90 @@
+Candidate Master in Codeforces
+
+Basics : Foundations
+Arrays
+	Prefix Sum,Sliding window, Two pointer approach
+Strings 
+	Naive Algorithm(not recommended)
+	Knuth Morris Pratt(KMP), Z-Algorithm, Manachers algorithm
+Stacks and Queues
+	Monotonic Stack/Queues
+	Balannced Paranthesis using stacks
+Hashing 
+	HashMaps and HashSets for frequency counting
+	Rolling Hash for string comparision
+Sorting
+	Quicksort,MergeSort
+	Custom comparators, two pointer based sorting problems
+Binary Search
+	Lower Bound, Upper Bound
+Math Basics
+	GCD, LCM(Eucledian algorithm)
+	Modular Arithmetic
+		Mod exponentiation
+		Mod inverses
+	Basic Combinatorics
+		Permutations
+		Combinations
+		factorial mod calculations
+INTERMEDIATE
+Trees
+	DFS/BFS
+	Lowerst common ancestor using binary lifting
+Graph
+	BFS/DFS
+	Detecting cycles in directed/undirected graphs
+	Shortest Path
+		Dijkstras
+		Bellman-Ford
+		Floyd Warshall
+Dynamc Arrays
+	Fenwick Tree(BIT) for range queries
+	Segment Tree
+		Sum, min, max queries
+		Lazy Propagation for range updates
+Dynamic Programming
+	Classical DP Problems
+		Knapsack
+		Longest Increasingn Subsequence
+		Longest Common Subsequence
+	State Optimization
+	Tree DP
+Greedy Algorithm
+	Huffman encoding
+	Interval scheduling
+	Activity selection problem
+Graph Algorithms
+	Topological Sorting
+	Minimum Spanning Tree
+		Prims Algorithm
+		Kruskal's Algorithm
+Bit Manipulation
+	subset generation usng bitmask
+	XOR operations
+
+Advanced Topics (1800+ Rating)
+Advanced Trees:
+	Persistent Segment Tree.
+	Binary Indexed Tree (Fenwick Tree) with 2D variants.
+	Sqrt Decomposition.
+Graphs:
+	Advanced shortest paths (Johnson’s algorithm).
+	Articulation points and bridges.
+	Strongly Connected Components (SCC) using Tarjan’s algorithm.
+	Maximum Bipartite Matching (Hopcroft-Karp Algorithm).
+Trie:
+	String queries, XOR maximization.
+Advanced DP:
+	DP with Bitmasks.
+	Divide-and-conquer DP.
+	DP on graphs (e.g., shortest paths with constraints).
+Number Theory:
+	Modular arithmetic:
+		Fermat’s Little Theorem.
+		Euler’s Totient Function.
+	Sieve of Eratosthenes (prime factorization).
+	Chinese Remainder Theorem.
+Geometry:
+	Convex hull.
+	Line sweep algorithms.
+	Rotating calipers for minimum enclosing shapes.
